@@ -5,6 +5,7 @@
 int main()
 {
 
+    char line[256];
 
     FILE *fp = fopen("ping.txt", "r");
 
