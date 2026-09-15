@@ -22,7 +22,7 @@ int main(){
     const double g = 9.81;
 
     
-    primtf("총 질량: ");
+    printf("총 질량: ");
     if(scanf("%lf", &m) != 1) return 1;
     printf("정격 토크: ");
     if(scanf("%lf", &T_m) != 1) return 1;
